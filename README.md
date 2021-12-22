@@ -7,6 +7,6 @@ docker build --build-arg JAR_FILE=build/libs/*.jar -t myorg/myapp .
 
 docker run -p 8080:8080 -expose myorg/myapp
 
-##Main URI
+## Main URI
 
 http://localhost:8080/api/rate?symbol=
